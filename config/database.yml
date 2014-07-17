@@ -1,0 +1,26 @@
+# PostgreSQL. Versions 8.2 and up are supported.
+
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: CIDICS_noruido_development
+  username: dianajaneth
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: CIDICS_noruido_test
+  username: dianajaneth
+  password: password
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: CIDICS_noruido_production
+  username: CIDICS_noruido
+  password: CIENCIA
